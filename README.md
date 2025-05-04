@@ -1,5 +1,5 @@
 ### 1. Tổng quan về dự án
-    #### Backend:
+####     Backend:
     - Được triển khai bằng Spring Boot.
     - URL Swagger UI để kiểm tra API: http://localhost:8080/swagger-ui/index.html#/.
     - Chức năng chính:
@@ -10,7 +10,7 @@
     - Được triển khai bằng React.
     - Repository frontend: JobPortal-react-app.
 ### 2. Cấu trúc thư mục backend
-    #### Backend có cấu trúc như sau:
+####     Backend có cấu trúc như sau:
     - Entities: Các lớp đại diện cho bảng trong cơ sở dữ liệu, ví dụ:
         Admin, User, Job, Resume, Skill, JobApplication, EducationalDetails.
     - DTOs (Data Transfer Objects): Các lớp dùng để truyền dữ liệu giữa client và server, ví dụ:
@@ -42,14 +42,14 @@
     - BCryptPasswordEncoder:
         Mã hóa mật khẩu người dùng.
 ### 5. Hướng dẫn chạy dự án
-    #### Backend:
+####     Backend:
             cd Server/Job-Portal-SpringBoot-Backend-main
         Chạy lệnh Maven để build dự án:
             mvn clean install
         Chạy ứng dụng:
             mvn spring-boot:run
         Truy cập Swagger UI tại: http://localhost:8080/swagger-ui/index.html#/.
-    #### Frontend:
+####     Frontend:
             cd Client/JobPortal-react-app-main
         Cài đặt dependencies:
             npm install
